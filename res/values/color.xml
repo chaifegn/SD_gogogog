@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+  
+    <color name="software_textColor_selected">#000000</color>  
+    <color name="software_textColor_unselected">#ffffff</color>  
+      
+</resources>  

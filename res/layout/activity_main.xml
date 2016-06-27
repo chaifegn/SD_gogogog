@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    tools:context="com.example.my_fragment.MainActivity" 
+    android:orientation="vertical">
+	
+    <LinearLayout 
+    android:id="@+id/topFrag"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"   
+    android:layout_weight="1" 
+    android:orientation="horizontal"
+    android:background="#f6ffe9">
+
+        <Button
+            android:id="@+id/btn_recommend"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="推薦衣物"
+            android:textColor="#7a4747"
+            android:background="#f6ffe9" 
+            />
+
+		<Button
+            android:id="@+id/btn_My_wardrobe"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="我的衣櫃" 
+            android:textColor="#7a4747"
+            android:background="#f6ffe9"
+            />
+		
+		<Button
+            android:id="@+id/btn_Mystyle"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Mystyle" 
+            android:textColor="#7a4747"
+            android:background="#f6ffe9"/>
+	</LinearLayout>
+	
+    <LinearLayout 
+    android:id="@+id/downFrag"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"  
+    android:layout_weight="6"   
+    android:orientation="vertical"
+    android:background="#CCFFCC">
+	</LinearLayout>
+
+</LinearLayout>
